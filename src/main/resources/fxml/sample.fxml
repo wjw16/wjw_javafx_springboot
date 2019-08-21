@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.it.code.controller.FrameController">
+    <children>
+        <Label fx:id="lbShow" layoutX="146.0" layoutY="48.0" text="接收子窗体文本：" />
+        <TextField fx:id="tfShow" layoutX="146.0" layoutY="100" />
+        <Button fx:id="btnOne" layoutX="120.0" layoutY="178.0" mnemonicParsing="false" onAction="#btnOne_click" text="打开子窗口1" />
+        <Button fx:id="btnTwo" layoutX="351.0" layoutY="178.0" mnemonicParsing="false" onAction="#btnTwo_click" text="打开子窗口2" />
+      <Button fx:id="btnSetOne" layoutX="227.0" layoutY="178.0" mnemonicParsing="false" text="更新子窗体1"
+            onAction="#btnSetOne_click"/>
+        <Button fx:id="btnSetTwo" layoutX="460.0" layoutY="178.0" mnemonicParsing="false" text="更新子窗体2"
+            onAction="#btnSetTwo_click"/>
+        <Button fx:id="btnSetThree" layoutX="120.0" layoutY="258.0" mnemonicParsing="false" text="打开子窗体3"
+                onAction="#btnSetThree_click"/>
+    </children>
+</AnchorPane>
